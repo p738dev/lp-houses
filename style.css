@@ -208,6 +208,22 @@ header .navigation .button-sign {
   line-height: 22px;
 }
 
+.section-featured .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+.section-featured .container .row-filters {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid green;
+}
+.section-featured .container .row-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border: 1px solid blue;
+}
+
 .fontBenefit {
   font-size: 20px;
   color: blue;

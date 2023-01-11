@@ -1,0 +1,19 @@
+.section-featured {
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        border: 1px solid red;
+
+        .row-filters {
+            display: flex;
+            justify-content: space-between;
+            border: 1px solid green;
+        }
+
+        .row-cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            border: 1px solid blue;
+        }
+    }
+}
