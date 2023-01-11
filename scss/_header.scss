@@ -1,0 +1,228 @@
+@use "variables";
+
+header {
+    .container {
+        max-width: 1500px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        background-color: #FFFFFF;
+        background: linear-gradient(148deg, #4BE4C9 -15%, rgba(12, 21, 55, 0) 35%);
+    }
+
+    .box1 {
+        width: 780px;
+
+        .rectangle1 {
+            position: absolute;
+            width: 32px;
+            height: 32px;
+            left: 320px;
+            top: 45px;
+            background: #F59E0B;
+            border-radius: 4px 4px 24px 4px;
+        }
+    
+        .rectangle2 {
+            position: absolute;
+            width: 32px;
+            height: 32px;
+            left: 324px;
+            top: 49px;
+            background: #4BE4C9;
+            border-radius: 4px 4px 24px 4px;
+        }
+    
+        .logo-hunter {
+            font-size: 20px;
+            display: flex;
+            color: #1B1C57;
+        }
+    
+        .logo-hunter p {
+            position: absolute;
+            width: 67px;
+            height: 20px;
+            left: 368px;
+            top: 50px;
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 20px;
+            color: #1B1C57;
+        }
+
+        .find-the-place {
+            margin: 150px auto 0 auto;
+            width: 496px;
+            height: 150px;
+
+        }
+
+        .header-findPlace {
+            font-weight: 600;
+            font-size: 40px;
+            line-height: 50px;
+            text-transform: uppercase;
+            color: #1B1C57;
+        }
+
+        .header-findPlace span {
+            
+        }
+
+        .eveytihingNeed {
+            width: 496px;
+            height: 56px;
+            margin: 30px auto 0 auto;
+        }
+
+        .eveytihingNeed p {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            color: #626687;
+            opacity: 0.75;
+        }
+
+        .search {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 4px 4px 4px 24px;
+            margin: 50px auto 0 auto;
+            gap: 16px;
+            width: 496px;
+            height: 56px;
+            border: 1px solid #E0E3EB;
+            border-radius: 32px;
+        }
+
+        .location-dot {
+            width: 18px;
+            height: 32px; 
+            position: absolute;
+            top: 457px
+        }
+
+        .fa-location-dot {
+            font-size: 20px;
+              color: #F59E0B;
+        }
+
+        .wantSearch {
+            width: 303px;
+            height: 22px;
+            margin-left: 40px;
+        }
+
+        .wantSearch p {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 22px;
+            color: #888B97
+        }
+
+        .btn-search {
+            width: 109px;
+            height: 48px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            padding: 12px 16px;
+            gap: 4px;
+            background: #10B981;
+            color: #fff;
+            border-radius: 32px;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 22px;
+        }
+
+        .partnership {
+            width: 120px;
+            height: 32px;
+            margin-top: 20px;
+            margin-left: 150px;
+        }
+
+        .partnership p {
+            color: #888B97;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 32px;
+        }
+
+        .partnerships-logo {
+            margin-top: 30px;
+            margin-left: 150px;
+            display: flex;
+            gap: 20px;
+        }
+
+        .partnership-logo {
+            width: 80px;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .partnership-logo img {
+            width: 100%;
+            object-fit: cover;   
+        }
+    }
+
+    .navigation {
+        display: flex;
+        gap: 150px;
+        width: 720px;
+        height: 720px;
+        background: linear-gradient(16.74deg, #0C1537 -6.09%, rgba(12, 21, 55, 0) 32.63%), url('https://www.realestate.com.au/blog/images/2000x1500-fit,progressive/2022/06/08163131/31A3885.png');
+        background-size: cover;
+        border-radius: 0px 0px 0px 80px;
+
+        .lists-nav-item {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 8px 16px;
+            gap: 24px;
+        }
+
+        .list-nav-item {
+            padding: 8px 16px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 32px;
+
+            .active-nav {
+                color: #F0F3FD;
+                font-size: 14px;
+                font-weight: 600;
+                line-height: 18px; 
+            }
+        }
+
+        .button-sign {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 12px 24px;
+            background-color: #D1FAE5;
+            color: #047857;
+            border: 1px solid #fff;
+            border-radius: 32px;
+            position: absolute;
+            width: 107px;
+            height: 46px;
+            left: 1500px;
+            top: 10px;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 22px;
+        }
+    }
+    
+}
