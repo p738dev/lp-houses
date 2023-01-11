@@ -39,16 +39,18 @@ header {
             color: #1B1C57;
         }
     
-        .logo-hunter p {
-            position: absolute;
-            width: 67px;
-            height: 20px;
-            left: 368px;
-            top: 50px;
-            font-weight: 700;
-            font-size: 22px;
-            line-height: 20px;
-            color: #1B1C57;
+        .logo-hunter { 
+            p {
+                position: absolute;
+                width: 67px;
+                height: 20px;
+                left: 368px;
+                top: 50px;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 20px;
+                color: #1B1C57;
+            }
         }
 
         .find-the-place {
