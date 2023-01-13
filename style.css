@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -13,9 +14,18 @@ a {
   color: #151515;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lexend", sans-serif;
+}
+
 header .container {
   max-width: 1500px;
-  margin: 0 auto;
+  margin: 0 auto 100px auto;
   display: flex;
   justify-content: space-between;
   background-color: #FFFFFF;
@@ -211,20 +221,95 @@ header .navigation .button-sign {
 .section-featured .container {
   max-width: 1200px;
   margin: 0 auto;
-  border: 1px solid red;
 }
 .section-featured .container .row-filters {
   display: flex;
   justify-content: space-between;
-  border: 1px solid green;
+  margin-bottom: 50px;
+}
+.section-featured .container .row-filters p {
+  color: #F59E0B;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  gap: 10px;
+}
+.section-featured .container .row-filters p span {
+  display: flex;
+  align-items: center;
+}
+.section-featured .container .row-filters p span img {
+  width: 32px;
+  height: 1px;
+  background: #F59E0B;
+}
+.section-featured .container .row-filters h3 {
+  color: #1B1C57;
+  font-size: 32px;
+  font-weight: 600;
+  margin-left: 40px;
+}
+.section-featured .container .row-filters .categorries-house {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.section-featured .container .row-filters .categorries-house .btn-house {
+  padding: 12px 24px;
+  border-radius: 32px;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #888B97;
+}
+.section-featured .container .row-filters .categorries-house .btn-house p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #888B97;
+}
+.section-featured .container .row-filters .categorries-house .btn-house:hover {
+  background-color: #D1FAE5;
+}
+.section-featured .container .row-filters .categorries-house .btn-house:hover p {
+  color: #10B981;
+}
+.section-featured .container .row-filters .categorries-house .btn-house:hover span i {
+  color: #10B981;
+}
+.section-featured .container .row-filters .categorries-house .btn-house span {
+  margin-right: 10px;
+}
+.section-featured .container .row-filters .categorries-house .btn-house span i {
+  width: 18px;
+  height: 19px;
+  display: flex;
+  align-items: center;
+  color: #888B97;
+}
+.section-featured .container .row-filters .arrows {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.section-featured .container .row-filters .arrow {
+  width: 60px;
+  height: 52px;
+  border-radius: 32px;
+}
+.section-featured .container .row-filters .arrow span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-featured .container .row-filters .arrow-one {
+  background-color: #E0E3EB;
+}
+.section-featured .container .row-filters .arrow-two {
+  background-color: #10B981;
 }
 .section-featured .container .row-cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   border: 1px solid blue;
-}
-
-.fontBenefit {
-  font-size: 20px;
-  color: blue;
 }/*# sourceMappingURL=style.css.map */
