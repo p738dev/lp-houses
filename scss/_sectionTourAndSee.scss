@@ -1,3 +1,5 @@
+@use "variables";
+
 .section-tour-and-see {
   .container {
     max-width: 1200px;
@@ -5,14 +7,95 @@
     border: 1px solid red;
 
     .rows-ready {
-      border: 1px solid green;
+      width: 700px;
+      border: 1px solid brown;
+
+      .ready-paragraph {
+        display: flex;
+        gap: 10px;
+        font-size: 14px;
+        font-weight: 500;
+        color: variables.$colorOrange;
+
+        span {
+          display: flex;
+          align-items: center;
+
+          img {
+            width: 32px;
+            height: 1px;
+            background: #f59e0b;
+          }
+        }
+      }
+
+      h3 {
+        color: #1b1c57;
+        font-size: 32px;
+        font-weight: 600;
+        margin-left: 40px;
+        margin-bottom: 10px;
+      }
+
+      .description-paragraph {
+        width: 390px;
+        height: 56px;
+        margin-left: 40px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #626687;
+        opacity: 0.75;
+      }
     }
 
     .house-details {
-      border: 1px solid black;
+      margin-left: 40px;
+      margin-bottom: 10px;
+
+      h6 {
+        margin-bottom: 10px;
+        font-weight: 600;
+        font-size: 16px;
+        color: #1b1c57;
+        opacity: 0.75;
+      }
+
+      .type-details {
+        width: 350px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 80px;
+        row-gap: 20px;
+
+        .detail {
+          display: flex;
+          gap: 20px;
+          justify-content: left;
+          align-items: center;
+
+          i {
+            width: 18px;
+            color: #888b97;
+          }
+
+          p {
+            font-size: 16px;
+            font-weight: 500;
+            color: #3c4563;
+          }
+        }
+      }
+    }
+
+    .line {
+      margin-left: 40px;
+      width: 440px;
+      background-color: #f0f3fd;
     }
 
     .row-image {
+      width: 660px;
+      margin-left: 40px;
       border: 1px solid orange;
     }
   }
