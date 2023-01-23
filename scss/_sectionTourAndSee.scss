@@ -1,0 +1,19 @@
+.section-tour-and-see {
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid red;
+
+    .rows-ready {
+      border: 1px solid green;
+    }
+
+    .house-details {
+      border: 1px solid black;
+    }
+
+    .row-image {
+      border: 1px solid orange;
+    }
+  }
+}
